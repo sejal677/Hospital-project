@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Raboto',sans-serif;
+    background-color: #f5e6e6;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(11, 78, 78);
+    align-items: center;
+
+    color:white ;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 20px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+    border: 2px solid black;
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(14,97,97);
+   /* margin-top: 55px;*/
+    height: 750px;
+    color: white;
+
+}
+.maintext h1{
+    font-size: 55px;
+}
+.maintext h3{
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.maintext button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.id1{
+    height: 500px;
+    width: 600px;
+}
+.maintext button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+}
+.teams .card{
+    width: 300px;
+    height: 420px;
+    background-color:white;
+    border-radius: 5px;
+    margin-inline: 20px;
+
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.head{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 50px;
+
+}
+.speciality{
+    display: flex;
+    justify-content: center;
+
+}
+.speciality .spcard{
+    width: 300px;
+    padding: 22px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-inline: 20px;
+}
+.spcard img{
+    width: 200px;
+}
+.spcard p{
+    margin-top: 11px;
+}
+.reviews{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+   
+}
+.patientreview{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+   /* background-color: white;*/
+}
+.patientreview img{
+    width: 300px;
+    margin-inline: 18px;
+    border-radius: 4px;
+}
+.contect{
+    width: 300px;
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.contect input{
+    width: 90%;
+    font-size: 18px;
+    padding: 9px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: rgb(215, 206, 206);
+    border-radius: 2px;
+
+}
+.contect button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(8, 60, 60);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+.contect h1{
+    color: rgb(16,103,103);
+}
+
+.head1{
+   text-align: center; 
+   padding-top: 120px;
+}
+.form{
+    height: 460px;
+    width: 850px;
+    margin-top: 5px;
+    padding: 22px;
+    background-color:rgb(74, 182, 182) ;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.form h2{
+    text-align: center;
+    
+}
+.form lebel{
+    display: inline-block;
+    font-size: 20px;
+
+    width: 50%;
+    margin:5px;
+    padding: 5px;
+    position: relative;
+    top: 25px;
+}
+
+.form input{
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    }
+    .form .btn{
+        height: 30px;
+        width: 200px;
+        background-color: rgb(192, 192, 9);
+        margin-left: 300px;
+        
+        margin-top: 60px;
+    }
+.footer{
+ display: flex;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(11,76,76);
+    color: white;
+}
+.text p{
+    margin-top: 12px;
+}
